@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('DejaVuSans.woff2') format('woff2'),
+        url('DejaVuSans.svg#DejaVuSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+color: white;
+background-color: #221e1f;
+}
+
+a {
+color: white;
+}

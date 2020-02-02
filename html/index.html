@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Romel Vera - @RomelSan">
+	<meta name="description" content="Inspired From November 2009 - Kiwicon III">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, noarchive">
+    <meta name="format-detection" content="telephone=no">
+    <title>Hackers Dont Give A Shit</title>
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+<div class="page">
+    <div class="content" style="font-family: 'DejaVu Sans'; font-weight: normal; font-style: normal;">
+        <h1 style="text-align: center;">Hackers don’t give a shit</h1>
+		<img style="display: block; margin-left: auto; margin-right: auto;" src="evildead.png">
+		<h1 style="text-align: center;" id="shit">Shit</h1>
+		<p style="text-align: center;"><a href="#" onclick="newQuote()">Another one...</a></p>
+		<p style="text-align: center;"><a href="https://github.com/RomelSan/hackers-dont-give-a-shit">Source</a></p>
+	</div>
+</div>
+
+
+<script>
+var myArray = [
+"About your project's scope",
+"It's managed by a third party",
+"It's a legacy system",
+"It's \"too critical to patch\"",
+"About your outage windows",
+"About your budget",
+"You've always done it that way",
+"About your Go-Live Date",
+"It's only a pilot/proof of concept",
+"About Non-Disclosure Agreements",
+"It wasn't a requirement in the contract",
+"It's an internal system",
+"It's really hard to change",
+"It's due for replacement",
+"You're not sure how to fix it",
+"It's handled in the Cloud",
+"About your Risk Register entry",
+"The vendor doesn't support that configuration",
+"It's an interim solution",
+"It's [insert standard here] compliant",
+"It's encrypted on disk",
+"The cost benefit doesn't stack up",
+"\"Nobody else could figure that out\"",
+"You can't explain the risk to \"The Business\"",
+"You've got other priorities",
+"About your faith in the competence of your internal users",
+"You don't have a business justification",
+"You can't show Return on Investment",
+"You contracted out that risk"
+];
+
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+document.getElementById('shit').innerHTML = randomItem;
+
+function newQuote() {
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+document.getElementById('shit').innerHTML = randomItem;
+}
+</script>
+</body>
+</html> 

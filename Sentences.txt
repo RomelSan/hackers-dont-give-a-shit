@@ -1,0 +1,29 @@
+About your project's scope
+It's managed by a third party
+It's a legacy system
+It's "too critical to patch"
+About your outage windows
+About your budget
+You've always done it that way
+About your Go-Live Date
+It's only a pilot/proof of concept
+About Non-Disclosure Agreements
+It wasn't a requirement in the contract
+It's an internal system
+It's really hard to change
+It's due for replacement
+You're not sure how to fix it
+It's handled in the Cloud
+About your Risk Register entry
+The vendor doesn't support that configuration
+It's an interim solution
+It's [insert standard here] compliant
+It's encrypted on disk
+The cost benefit doesn't stack up
+"Nobody else could figure that out"
+You can't explain the risk to "The Business"
+You've got other priorities
+About your faith in the competence of your internal users
+You don't have a business justification
+You can't show Return on Investment
+You contracted out that risk
